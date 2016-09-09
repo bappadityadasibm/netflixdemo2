@@ -1,6 +1,6 @@
 node {
         stage 'Build'
-        echo 'Build Stage'
+        echo 'Starting Build Stage'
         dir('blog-microservices') {
         // some block
         }
