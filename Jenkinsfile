@@ -12,4 +12,10 @@ node {
         stage('Test') {
         echo 'Test Stage'
         }
+
+	stage('Publish') {
+
+	echo 'Publishing to Artifactory'
+	sh "./publish-all.sh"
+	}
 }
