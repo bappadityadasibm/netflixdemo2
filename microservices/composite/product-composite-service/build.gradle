@@ -3,7 +3,9 @@ buildscript {
         springBootVersion = '1.2.2.RELEASE'
     }
     repositories {
-        mavenCentral()
+        //mavenCentral()
+        maven { url 'http://localhost:8081/artifactory/repo' }
+    
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -18,11 +20,30 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
+//apply plugin: 'maven-publish'
+
+
+//publishing{
+//  publications {
+//    maven(MavenPublication)  {
+//        groupId 'dbpackage'
+//        version = '1.0'
+//        artifactId project.getName()
+//        artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
+//    }
+//  }
+//}
+
 
 jar {
     baseName = 'product-composite-service'
     version = '0.0.1-SNAPSHOT'
 }
+
+/*************publishing****************
+
+
+/*************publishing****************
 
 /****************/
 artifactory {
@@ -43,7 +64,7 @@ artifactory {
     }
     defaults {
         //List of Gradle Publications (names or objects) from which to collect the list of artifacts to be deployed to Artifactory.
-        //publications ('ivyJava','mavenJava','foo')
+        //publications ('mavenJava')
         ////List of Gradle Configurations (names or objects) from which to collect the list of artifacts to be deployed to Artifactory. 
         publishConfigs('archives', 'published')                   
         properties = ['qa.level': 'basic', 'q.os': 'win32, deb, osx']  //Optional map of properties to attach to all published artifacts
@@ -90,7 +111,7 @@ artifactory {
   // Redefine basic properties of the build info object
   clientConfig.setIncludeEnvVars(true)
   clientConfig.info.addEnvironmentProperty('test.adding.dynVar',new java.util.Date().toString())
-  clientConfig.info.setBuildName('new-strange-name')
+  clientConfig.info.setBuildName('dbmicroservicebuild')
   clientConfig.info.setBuildNumber('' + new java.util.Random(System.currentTimeMillis()).nextInt(20000))
   clientConfig.timeout = 600 // Artifactory connection timeout (in seconds). The default timeout is 300 seconds.
 }
