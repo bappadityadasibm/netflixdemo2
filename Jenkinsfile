@@ -18,4 +18,11 @@ node {
 	echo 'Publishing to Artifactory'
 	sh "./publish-all.sh"
 	}
+
+	stage ('Release')
+	{
+	    echo 'Releasing'
+	    gradle release -Prelease.useAutomaticVersion=true
+
+	}
 }
