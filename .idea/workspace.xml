@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acf49b51-baf6-42dc-81e9-e41b52f6bf4c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/distributions/product-composite-service.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/distributions/product-composite-service.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/scripts/product-composite-service" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/scripts/product-composite-service.bat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/libs/product-composite-service-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/libs/product-composite-service-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/libs/product-composite-service-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/libs/product-composite-service-0.0.1-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build.gradle" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/classes/se.callista.microservices.composite.product.ProductCompositeServiceApplicationTests.html" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/classes/se.callista.microservices.composite.product.ProductCompositeServiceApplicationTests.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/packages/se.callista.microservices.composite.product.html" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/packages/se.callista.microservices.composite.product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/TEST-se.callista.microservices.composite.product.ProductCompositeServiceApplicationTests.xml" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/TEST-se.callista.microservices.composite.product.ProductCompositeServiceApplicationTests.xml" />
     </list>
     <ignored path="blog-microservices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservices/composite/product-composite-service/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
@@ -72,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -107,6 +87,7 @@
       <list>
         <option value="$PROJECT_DIR$/microservices/composite/product-composite-service/gradle.properties" />
         <option value="$PROJECT_DIR$/microservices/composite/product-composite-service/build.gradle" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
   </component>
@@ -491,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473757263000</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Releasing of artifacts">
+      <created>1473763369278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1473763369278</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -536,7 +524,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add versioning to gradle.properties file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add versioning to gradle.properties file" />
+    <MESSAGE value="Add Releasing of artifacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Releasing of artifacts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -889,14 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/publish-all.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -925,6 +906,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="130" column="38" selection-start-line="130" selection-start-column="38" selection-end-line="130" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding />
         </state>
       </provider>
