@@ -22,7 +22,7 @@ node {
 	stage ('Release')
 	{
 	    echo 'Releasing'
-	    gradle release -Prelease.useAutomaticVersion=true
+	    sh "./release.sh"
 
 	}
 }
