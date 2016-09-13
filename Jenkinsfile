@@ -2,7 +2,7 @@ node {
 	stage 'Stage Check Out'
 	checkout scm
 	sh 'git config user.email "bappa21@gmail.com"'
-	sh 'git config user.name  "bappa"'
+	sh 'git config user.name  "bappadityadasibm"'
 	//sh 'git submodule update --init'
         stage 'Stage Build'
         echo 'Starting Build Stage'
