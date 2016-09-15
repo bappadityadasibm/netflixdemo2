@@ -23,8 +23,8 @@ node {
 
 	stage ('Release')
 	{
-	    echo 'Releasing Now Only'
-	    sh "./release.sh"
+	    echo 'Releasing Now Only..'
+	    sh "./release.sh minor"
 
 	}
 }
