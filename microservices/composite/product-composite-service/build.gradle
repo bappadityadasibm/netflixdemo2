@@ -142,9 +142,17 @@ release {
     versionPropertyFile = 'gradle.properties'
     versionProperties = []
     buildTasks = ['build']
+    //versionPatterns = [
+    //        /(\d+)([^\d]*$)/: { Matcher m, Project p -> m.replaceAll("${(m[0][1] as int) + 1}${m[0][2]}") }
+    //]
+
+
     versionPatterns = [
-            /(\d+)([^\d]*$)/: { Matcher m, Project p -> m.replaceAll("${(m[0][1] as int) + 1}${m[0][2]}") }
-    ]
+    // Increments minor number: "2.5.17-SNAPSHOT" => "2.6.0-SNAPSHOT"
+            /[.]*\.(\d+)\.(\d+)[.]*/: { Matcher m, Project p -> m.replaceAll(".${(m[0][1] as int) + 1}.0") }]
+
+
+
 }
 
 sourceCompatibility = 1.8
