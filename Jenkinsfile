@@ -23,10 +23,8 @@ node {
 
 	stage ('Release')
 	{
-	    echo 'Releasing Now'
-	   // sh "./release.sh"
+	    echo 'Releasing Now Only'
+	    sh "./release.sh"
 
-       // sh 'cd microservices/composite/product-composite-service'
-       sh 'cd microservices/composite/product-composite-service ;./gradlew release -Prelease.useAutomaticVersion=true -Prelease.releaseVersion=1.0.0 -Prelease.newVersion=1.1.0-SNAPSHOT'
 	}
 }
