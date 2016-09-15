@@ -24,7 +24,7 @@ node {
 	stage ('Release')
 	{
 	    echo 'Releasing Now Only..'
-	    def release_command = "./release.sh" + release_type
+	    def release_command = "./release.sh " + release_type
 	    echo 'Release Command=' + release_command
 	    sh "$release_command"
 
