@@ -127,7 +127,7 @@ artifactory {
 
 /****************/
 
-task releasebase (type: release) {
+release {
     failOnCommitNeeded = false
     failOnPublishNeeded = false
     failOnSnapshotDependencies = false
@@ -146,12 +146,16 @@ task releasebase (type: release) {
     //        /(\d+)([^\d]*$)/: { Matcher m, Project p -> m.replaceAll("${(m[0][1] as int) + 1}${m[0][2]}") }
     //]
 
-
-    versionPatterns = [
-    // Increments minor number: "2.5.17-SNAPSHOT" => "2.6.0-SNAPSHOT"
-            /[.]*\.(\d+)\.(\d+)[.]*/: { Matcher m, Project p -> m.replaceAll(".${(m[0][1] as int) + 1}.0") }]
-
-
+    String releaseType = System.getProperty("releaseType").toLowerCase();
+    if(releaseType.contains("minor")) {
+        versionPatterns = [
+                // Increments minor number: "2.5.17-SNAPSHOT" => "2.6.0-SNAPSHOT"
+                /[.]*\.(\d+)\.(\d+)[.]*/: { Matcher m, Project p -> m.replaceAll(".${(m[0][1] as int) + 1}.0") }]
+    }
+    else{
+        versionPatterns = [
+                /(\d+)([^\d]*$)/: { Matcher m, Project p -> m.replaceAll("${(m[0][1] as int) + 1}${m[0][2]}") }]
+    }
 
 }
 
