@@ -3,8 +3,10 @@
 releasetype=$1
 echo "Need to release with release version=$releasetype"
 if [  $releasetype = "minor" ]; then
-cd microservices/composite/product-composite-service; ./gradlew releasebase -Prelease.useAutomaticVersion=true; cd -
+echo "Releasing Minor Version"
+cd microservices/composite/product-composite-service; ./gradlew releasebase -Prelease.useAutomaticVersion=true -PreleaseType=minor; cd -
 else
-   echo "Could not get what type of release is wanted."
+   echo "Releasing Patch Version"
+cd microservices/composite/product-composite-service; ./gradlew releasebase -Prelease.useAutomaticVersion=true -PreleaseType=patch; cd -
 fi
 
