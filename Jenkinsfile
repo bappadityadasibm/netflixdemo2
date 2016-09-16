@@ -6,7 +6,7 @@ node {
 	    sh 'git config user.name  "bappadityadasibm"'
     }
 
-    stage 'Stage Build'
+    stage ('Stage Build')
     {
         def  build_command = "./build-all.sh " + release_type
         echo 'Build Command=' + build_command
