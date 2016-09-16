@@ -5,13 +5,13 @@ node {
 	    sh 'git config user.email "bappa21@gmail.com"'
 	    sh 'git config user.name  "bappadityadasibm"'
     }
-    //stage 'Stage Build'
-    //    echo 'Starting Build Stage'
-     //   sh "./build-all.sh"
+    stage 'Stage Build'
+        echo 'Starting Build Stage'
+        sh "./build-all.sh"
 
-     //   stage('Test') {
-     //  echo 'Test Stage'
-     //  }
+        stage('Test') {
+        echo 'Test Stage'
+       }
 
 	// stage('Publish') {
 
