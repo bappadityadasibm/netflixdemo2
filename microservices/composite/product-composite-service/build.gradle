@@ -127,7 +127,7 @@ artifactory {
 
 /****************/
 
-task releasebase (type : release) {
+task releasebase (type: release) {
     failOnCommitNeeded = false
     failOnPublishNeeded = false
     failOnSnapshotDependencies = false
