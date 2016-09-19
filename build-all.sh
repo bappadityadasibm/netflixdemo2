@@ -7,10 +7,14 @@ cd microservices/core/product-service;                ./gradlew clean publishToM
 cd microservices/core/recommendation-service;         ./gradlew clean publishToMavenLocal; cd -
 cd microservices/core/review-service;                 ./gradlew clean publishToMavenLocal; cd -
 
-if [  $releasetype = "minor" ]; then
+if [  $releasetype = "minor" ]
+then
 cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=minor; cd -
-else
+elif [  $releasetype = "patch" ]
+then
 cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=patch; cd -
+else
+cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=major; cd -
 fi
 cd microservices/support/discovery-server;            ./gradlew clean build; cd -
 cd microservices/support/edge-server;                 ./gradlew clean build; cd -
