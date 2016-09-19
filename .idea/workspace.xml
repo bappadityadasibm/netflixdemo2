@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acf49b51-baf6-42dc-81e9-e41b52f6bf4c" name="Default" comment="Adding Version Matcher">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/.gradle/2.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/output.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/output.bin.idx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/binary/test/results.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jenkinsfile" afterPath="$PROJECT_DIR$/Jenkinsfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build.gradle" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/classes/se.callista.microservices.composite.product.ProductCompositeServiceApplicationTests.html" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/classes/se.callista.microservices.composite.product.ProductCompositeServiceApplicationTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/packages/se.callista.microservices.composite.product.html" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/reports/tests/packages/se.callista.microservices.composite.product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/TEST-se.callista.microservices.composite.product.ProductCompositeServiceApplicationTests.xml" afterPath="$PROJECT_DIR$/microservices/composite/product-composite-service/build/test-results/TEST-se.callista.microservices.composite.product.ProductCompositeServiceApplicationTests.xml" />
     </list>
     <ignored path="blog-microservices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservices/composite/product-composite-service/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
+            <state relative-caret-position="510">
+              <caret line="165" column="30" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -37,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/microservices/composite/product-composite-service/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -53,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="120">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -66,8 +78,28 @@
       <file leaf-file-name="release.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/release.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="124" selection-start-line="6" selection-start-column="113" selection-end-line="6" selection-end-column="124" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-all.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build-all.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="95" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publish-all.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/publish-all.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="102" selection-start-line="12" selection-start-column="102" selection-end-line="12" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -86,10 +118,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/microservices/composite/product-composite-service/gradle.properties" />
         <option value="$PROJECT_DIR$/release.sh" />
+        <option value="$PROJECT_DIR$/build-all.sh" />
+        <option value="$PROJECT_DIR$/publish-all.sh" />
         <option value="$PROJECT_DIR$/microservices/composite/product-composite-service/build.gradle" />
-        <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
   </component>
@@ -660,7 +694,91 @@
       <option name="project" value="LOCAL" />
       <updated>1474032280342</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Adding Version Matcher">
+      <created>1474032629401</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1474032629401</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Adding Version Matcher">
+      <created>1474033713642</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1474033713642</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Adding Version Matcher">
+      <created>1474033830511</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1474033830511</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Adding Version Matcher">
+      <created>1474034514251</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1474034514251</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Adding Version Matcher">
+      <created>1474036486392</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1474036486392</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Adding Version Matcher">
+      <created>1474040839808</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1474040839808</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Adding Version Matcher">
+      <created>1474041429879</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1474041429879</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Adding Version Matcher">
+      <created>1474042156994</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1474042156994</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Adding Version Matcher">
+      <created>1474042415925</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1474042415925</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Adding Version Matcher">
+      <created>1474276347790</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1474276347790</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Adding Version Matcher">
+      <created>1474280237868</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1474280237868</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Adding Version Matcher">
+      <created>1474280254874</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1474280254874</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1045,47 +1163,47 @@
     <entry file="file://$PROJECT_DIR$/microservices/composite/product-composite-service/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/publish-all.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build-all.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/release.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="124" selection-start-line="6" selection-start-column="113" selection-end-line="6" selection-end-column="124" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservices/composite/product-composite-service/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="120">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build-all.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="95" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish-all.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="102" selection-start-line="12" selection-start-column="102" selection-end-line="12" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/composite/product-composite-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="165" column="30" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
           <folding />
         </state>
       </provider>
