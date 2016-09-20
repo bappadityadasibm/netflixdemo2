@@ -18,12 +18,7 @@ node {
         echo 'Test Stage'
     }
 
-	//stage('Publish') {
-    //     def  publish_command = "./publish-all.sh " + release_type
-    //     echo 'Publish Command=' + publish_command
-	//     echo 'Publishing to Artifactory'
-	 //    sh "$publish_command"
-	 //}
+
 
 	stage ('Release')
 	{
@@ -33,4 +28,11 @@ node {
 	    sh "$release_command"
 
 	}
+
+	stage('Publish') {
+             def  publish_command = "./publish-all.sh " + release_type
+             echo 'Publish Command=' + publish_command
+    	     echo 'Publishing to Artifactory'
+    	     sh "$publish_command"
+    }
 }
