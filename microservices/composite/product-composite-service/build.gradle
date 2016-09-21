@@ -168,6 +168,8 @@ release {
 
 }
 
+afterReleaseBuild.dependsOn artifactoryPublish
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
