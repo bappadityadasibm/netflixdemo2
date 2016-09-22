@@ -125,6 +125,9 @@ artifactory {
 }
 
 
+javadoc {
+    failOnError = true
+}
 /****************/
 
 release {
