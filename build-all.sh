@@ -12,7 +12,7 @@ then
 cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=minor; cd -
 elif [  $releasetype = "patch" ]
 then
-cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=patch; ./gradlew javadoc; cd -
+cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=patch; ./gradlew javadoc -PreleaseType=patch; cd -
 else
 cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=major; cd -
 fi
