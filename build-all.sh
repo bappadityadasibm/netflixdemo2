@@ -9,12 +9,12 @@ cd microservices/core/review-service;                 ./gradlew clean publishToM
 
 if [  $releasetype = "minor" ]
 then
-cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=minor; cd -
+cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=minor; ./gradlew javadoc -PreleaseType=patch; cd -
 elif [  $releasetype = "patch" ]
 then
 cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=patch; ./gradlew javadoc -PreleaseType=patch; cd -
 else
-cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=major; cd -
+cd microservices/composite/product-composite-service; ./gradlew clean build -PreleaseType=major; ./gradlew javadoc -PreleaseType=patch; cd -
 fi
 cd microservices/support/discovery-server;            ./gradlew clean build; cd -
 cd microservices/support/edge-server;                 ./gradlew clean build; cd -
