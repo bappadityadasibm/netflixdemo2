@@ -139,7 +139,7 @@ asciidoctor {
         logging.removeStandardOutputListener(listener)
         logging.removeStandardErrorListener(listener)
         ext.capturedOutput.join('').with { output ->
-            if (output =~ /warning/) {
+            if (output =~ /WARNING/) {
                 println 'Warning Found:'
                 throw new RuntimeException("Warning Found During ASCII Doc Generation\n" + output)
             }
