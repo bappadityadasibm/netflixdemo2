@@ -135,6 +135,7 @@ asciidoctor {
     logging.addStandardOutputListener(listener)
 
     doLast {
+        println 'Inside doLast of asciidoctor'
         logging.removeStandardOutputListener(listener)
         logging.removeStandardErrorListener(listener)
         ext.capturedOutput.join('').with { output ->
