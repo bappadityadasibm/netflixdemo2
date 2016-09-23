@@ -8,7 +8,7 @@ node {
 
     stage ('Stage Build')
     {
-        def  build_command = "./build-all.sh " + release_type
+        def  build_command = "./build-all.sh"
         echo 'Build Command=' + build_command
         echo 'Starting Build Stage'
         sh "$build_command"
@@ -29,10 +29,4 @@ node {
 
 	}
 
-	//stage('Publish') {
-     //        def  publish_command = "./publish-all.sh " + release_type
-     //        echo 'Publish Command=' + publish_command
-    	//     echo 'Publishing to Artifactory'
-    //	     sh "$publish_command"
-    //}
 }
