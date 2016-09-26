@@ -11,15 +11,8 @@ node {
         def  build_command = "./build-all.sh"
         echo 'Build Command=' + build_command
         echo 'Starting Build Stage'
-        try
-        {
-            sh "$build_command"
-            echo 'Build Completed With Success.....'
-        }
-        catch(err)
-        {
-            throw err
-        }
+        sh "$build_command"
+
     }
 
     stage('Test') {
