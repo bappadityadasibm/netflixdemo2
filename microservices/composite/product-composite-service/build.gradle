@@ -205,16 +205,16 @@ afterReleaseBuild.dependsOn artifactoryPublish
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-/*
-Temporary commented out
+
+
 repositories {
     mavenLocal()
     mavenCentral()
-    maven {
+    /*maven {
         // Can't find spring-cloud-build in maven central...
         url 'http://maven.springframework.org/release'
-    }
-}*/
+    }*/
+}
 
 
 dependencies {
